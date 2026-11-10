@@ -1,0 +1,7 @@
+# Snyk (https://snyk.io) policy file
+version: v1.25.0
+ignore:
+  SNYK-JS-MARSDB-480405:
+    - '*':
+        reason: 'Dev-only dependency / tidak ada versi patch resmi yang tersedia dari maintainer'
+        expires: 2026-12-31
